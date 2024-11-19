@@ -1,0 +1,178 @@
+{
+  "main": {
+    "name":"Anthony GESSAT-MELIS",
+    "description":"Je suis créateur de sites web et développeur d'applications web et mobiles. Je conçois des solutions modernes et sur mesure pour donner vie à vos idées numériques. Que ce soit pour un site vitrine, une boutique en ligne ou une application mobile, je vous accompagne avec passion pour créer des projets uniques et performants.",
+    "image":"AG.webp",
+    "bio":"Ma force réside dans ma capacité à aller au-delà des attentes. Je suis force de proposition. Mon objectif est de comprendre vos besoins uniques et de concevoir des solutions sur mesure qui reflètent votre vision tout en offrant une expérience utilisateur exceptionnelle. En tant que professionnel sociable, je crois fermement que la communication ouverte et la collaboration sont essentielles pour réussir dans tout projet. Je suis à l'écoute de vos idées, de vos retours et de vos préoccupations, et je m'efforce de créer une relation de travail solide et positive.",
+    "contactmessage":"Si vous avez des questions ou souhaitez en savoir plus, n'hésitez pas à me contacter. Je serai ravi de discuter de votre projet et de voir comment je peux vous accompagner.",
+    "email": "anthony.gessat@gmail.com",
+    "phone": "07.61.99.19.98",
+    "github":"https://github.com/Lyokosonic",
+    "project":"",
+    "address":{
+      "street":"7 Place du peyra",
+      "city":"Vence",
+      "state":"FRANCE",
+      "zip": "06140"
+    },
+    "website": "./cv/Anthony Gessat.pdf",
+    "resumedownload":"./cv/Anthony Gessat.pdf",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/anthony.gessat/",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/anthony-gessat/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/anthonygsst/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/Lyokosonic",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "school":"Epitech",
+        "degree":"Bac + 3 à Bac + 5",
+        "graduated":"Aout 2022",
+        "description":"Responsable de projet web et mobile / Architecte logiciel, développeur d’application"
+      },
+      {
+        "school":"Lycée Victor Hugo - 13003 Marseille",
+        "degree":"Bac + 2",
+        "graduated":"Juillet 2019",
+        "description":"BTS SIO Option SLAM"
+      },
+      {
+        "school":"Lycée Alfred Hutinel - 06150 Cannes",
+        "degree":"Bac Pro",
+        "graduated":"Juillet 2017",
+        "description":"Systèmes Electroniques Numériques"
+      }
+    ],
+    "work":[
+      {
+        "company":"TioCode",
+        "title":"Professeur en Robotique, Jeux vidéo et création de site web",
+        "years":"Octobre 2023 - Aujourd’hui",
+        "description":" Une école novatrice qui transforme l'éducation numérique et la robotique pour les enfants."
+      },
+      {
+        "company":"Santiane",
+        "title":"Développeur web",
+        "years":"Février 2023 - Mai 2023",
+        "description":"Application des méthodologies Scrum et Extreme Programming, migration de l'EDI B2B/B2C de CodeIgniter 3 vers Laravel avec un front-end en React.js, et maintenance des espaces clients monsantiane.fr/monneoliane.fr (React.js et CodeIgniter 3 )."
+      },
+      {
+        "company":"Tendances.media",
+        "title":"(Alternance) Développeur web junior",
+        "years":"Septembre 2020 - Novembre 2022",
+        "description":"Réalisation de sites WordPress sur mesure, maintenance et développement de nouvelles fonctionnalités pour l'espace client (HTML, CSS, JS, PHP, jQuery, Ajax), ainsi que refonte complète de l'espace client existant avec les technologies ReactJS et Strapi (Node .js)."
+      },
+      {
+        "company":"Blik Agency",
+        "title":"(Stage) Développeur WordPress",
+        "years":"Mars 2020 - Aout 2020",
+        "description":"Réalisation de sites WordPress avec des thèmes préconstruits et développement de scripts en PHP et JavaScript."
+      },
+      {
+        "company":"JWeb création",
+        "title":"(Stage) Développeur WordPress",
+        "years":"Mars 2020 - Aout 2020",
+        "description":"Développement web avec la technologie Synfony (twig)."
+      },
+      {
+        "company":"Glasgow kelvin College",
+        "title":"(Stage Erasmus) Développeur web",
+        "years":"Mai 2018 - Juillet 2018",
+        "description":"Création d'un espace web dédié à l'écologie et à la consommation de CO2."
+      }
+    ],
+    "skills":[
+      {
+        "name":"HTML5",
+        "level":"100%"
+      },
+      {
+        "name":"CSS",
+        "level":"100%"
+      },
+      {
+        "name":"PHP",
+        "level":"75%"
+      },
+      {
+        "name":"Javascript",
+        "level":"75%"
+      },
+      {
+        "name":"Typescript",
+        "level":"75%"
+      },
+      {
+        "name":"SQL",
+        "level":"100%"
+      },
+      {
+        "name":"Docker",
+        "level":"65%"
+      },
+      {
+        "name":"Python",
+        "level":"65%"
+      },
+      {
+        "name":"VueJs",
+        "level":"75%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"80%"
+      },
+      {
+        "name":"React native",
+        "level":"80%"
+      },
+      {
+        "name":"JAVA",
+        "level":"60%"
+      },
+      {
+        "name":"Laravel",
+        "level":"70%"
+      },
+      {
+        "name":"Angular",
+        "level":"50%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Tendances.Media",
+        "category":"Site web créer pour Tendances.Media",
+        "image":"TM.jpg",
+        "url":"https://tendances.media/"
+      },
+      {
+        "title":"Les frères Croizon",
+        "category":"Site web créer pour Tendances.Media",
+        "image":"TC.jpg",
+        "url":"https://lesfrerescroizon.com/"
+      }
+    ]
+  }
+}
