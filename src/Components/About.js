@@ -24,7 +24,7 @@ class About extends Component {
               <img
                 className="profile-pic"
                 src={profilepic}
-                alt="Ma photo de profile"
+                alt="photo_de_profile"
               />
             </div>
             <div className="nine columns main-col">
@@ -50,7 +50,7 @@ class About extends Component {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button" target="_BLANK">
+                    <a href={resumeDownload} className="button" target="_BLANK" rel="noreferrer">
                       <i className="fa fa-download"></i>Voir mon CV
                     </a>
                   </p>

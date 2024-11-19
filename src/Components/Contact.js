@@ -1,4 +1,4 @@
-import React, { Component,useState } from "react";
+import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
 import Swal from 'sweetalert2'
 
@@ -14,7 +14,6 @@ class Contact extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const access_key = this.props.data.access_key;
     const name = this.props.data.name;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
@@ -25,7 +24,7 @@ class Contact extends Component {
 
     const onSubmit = async (event) => {
       event.preventDefault();
-      this.state.result = "Sending....";
+      this.setState({result: "Sending...."});
       const formData = new FormData(event.target);
   
       formData.append("access_key", '480fcd1f-50a5-430f-b98a-c9ebe3a90028');
@@ -38,7 +37,7 @@ class Contact extends Component {
       const data = await response.json();
   
       if (data.success) {
-        this.state.result = "Form Submitted Successfully";
+        this.setState({result: "Form Submitted Successfully"});
         Swal.fire({
           title: "Success!",
           text: "Message envoyé avec succès!",
@@ -47,7 +46,7 @@ class Contact extends Component {
         event.target.reset();
       } else {
         console.log("Error", data);
-        this.state.result = data.message;
+        this.setState({result: data.message});
       }
     };
 
