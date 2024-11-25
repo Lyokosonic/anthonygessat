@@ -37,7 +37,7 @@ jobs:
           CI: true
           SITE_URL: ${{ inputs.site-url }}
         run: |
-          npm ci --legacy-peer-deps
+          npm i --legacy-peer-deps
           npm i env-cmd --force
           env-cmd -f ./.env.prod react-scripts build
 
