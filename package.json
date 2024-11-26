@@ -21,10 +21,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "npm i env-cmd --force && env-cmd -f ./.env.dev react-scripts start",
-    "build": "npm i env-cmd --force && env-cmd -f ./.env.dev react-scripts build",
-    "start-prod": "npm i env-cmd --force && env-cmd -f ./.env.prod react-scripts start",
-    "build-prod": "npm i env-cmd --force && env-cmd -f ./.env.prod react-scripts build",
+    "start": "env-cmd -f ./.env.dev react-scripts start",
+    "build": "env-cmd -f ./.env.dev react-scripts build",
+    "start-prod": "env-cmd -f ./.env.prod react-scripts start",
+    "build-prod": "env-cmd -f ./.env.prod react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
